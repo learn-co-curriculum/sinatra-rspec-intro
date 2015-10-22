@@ -12,12 +12,13 @@ class TestApp < Sinatra::Base
   end
 
   get '/hello/?:name?' do
-    if params[:name].nil?
-      erb:hello
-    else
+    @name = params[:name]
+    erb :hello
+  end
+
+    get '/hello/:name' do
       @name = params[:name]
       erb :hello
-    end
   end
 
 end
