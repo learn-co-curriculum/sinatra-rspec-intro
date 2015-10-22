@@ -13,7 +13,7 @@ class TestApp < Sinatra::Base
     erb :about
   end
 
-  get '/search/?:q?' do
+  get '/search' do
     @search = params[:q]
     erb :results
   end
