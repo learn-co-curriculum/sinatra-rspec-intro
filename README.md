@@ -4,7 +4,7 @@ In the specs, you'll find tests to make sure that your Sinatra application respo
 
 Start with `route_spec.rb` and write the code in `app.rb` that makes the tests pass.
 
-After all your tests pass, use `rackup` to run your app, and then make sure it works in the browser as well.
+After all your tests pass, use `rackup` or `shotgun` to run your app, and then make sure it works in the browser as well.
 
 
 ## Resources
