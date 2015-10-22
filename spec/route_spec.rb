@@ -48,8 +48,14 @@ describe "routes" do
     expect(last_response).to be_ok
   end
 
-  it "handles GET to /hello" do
-    get '/hello'
+  it "handles GET to /hello/:name" do
+    get '/hello/ian'
     expect(last_response).to be_ok
   end
+
+    it "handles GET to /search" do
+      get '/search'
+    expect(last_response).to be_ok
+  end
+
 end
