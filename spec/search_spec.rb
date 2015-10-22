@@ -7,7 +7,7 @@ describe "results page" do
   end
 
   it "takes a search query paramater and displays it to the user" do
-    get '/search', q: "Flatiron"
+    get '/search?=Flatiron'
     expect(last_response.body).to include("You searched for Flatiron")
   end
 
