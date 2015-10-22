@@ -1,7 +1,9 @@
 require './config/environment'
 
 class TestApp < Sinatra::Base
+
   get '/' do
+    erb :index
   end
 
   post '/' do
@@ -11,14 +13,14 @@ class TestApp < Sinatra::Base
     erb :about
   end
 
-  get '/hello/?:name?' do
-    @name = params[:name]
-    erb :hello
+  get '/search/?:q?' do
+    @search = params[:q]
+    erb :results
   end
 
-    get '/hello/:name' do
-      @name = params[:name]
-      erb :hello
+  get '/hello/:name' do
+    @name = params[:name]
+    erb :hello
   end
 
 end
