@@ -14,3 +14,5 @@ How do you get the /hello path to work with a name? Hint: you need [query string
 * [Thoughtbot](http://robots.thoughtbot.com/) - [How to Test Sinatra-Based Web Applications](http://robots.thoughtbot.com/how-to-test-sinatra-based-web-services)
 * [Sinatra Docs](http://www.sinatrarb.com/) - [Testing Sinatra with Rack::Test](http://www.sinatrarb.com/testing.html)
 * [Optional parameters in Sinatra](http://stackoverflow.com/questions/21847105/several-optional-parameters-in-sinatra-route)
+
+<a href='https://learn.co/lessons/sinatra-rspec-intro' data-visibility='hidden'>View this lesson on Learn.co</a>
