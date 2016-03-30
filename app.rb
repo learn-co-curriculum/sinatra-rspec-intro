@@ -1,5 +1,6 @@
 require './config/environment'
 
 class TestApp < Sinatra::Base
-  #put your route handlers here
+  # Define Your Routes Here!
+
 end
